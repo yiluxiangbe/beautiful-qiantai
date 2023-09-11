@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #container {
+        min-height: 100%;
+        height: auto !important;
+        margin: 0 auto -60px; /*margin-bottom的负值等于footer高度*/
+      }
+      .push,
+      #footer {
+        height: 60px;
+      }
+      /*==========其他div效果==========*/
+      #header {
+        padding: 10px;
+        background-color: pink;
+      }
+      #content {
+        display: flex;
+      }
+      #left {
+        width: 33.3%;
+        background-color: orange;
+      }
+      #center {
+        width: 33.3%;
+        background-color: green;
+      }
+      #right {
+        width: 33.3%;
+        background-color: yellow;
+      }
+      #footer {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">头部</div>
+
+      <div id="content" class="clearfix">
+        <div id="left">
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+          <p>xxxxxx</p>
+        </div>
+
+        <div id="center">xxxxxx</div>
+
+        <div id="right">xxxxx</div>
+      </div>
+
+      <div class="push"></div>
+    </div>
+    <div id="footer">底部</div>
+  </body>
+</html>
